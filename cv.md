@@ -9,7 +9,7 @@
 
 **Phone:** +375 (29) 767-94-10
 
-**Location:** Minsk, Belarus
+**Location:** Minsk, Belaru
 
 
 ## About me
