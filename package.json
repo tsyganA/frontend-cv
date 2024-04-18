@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "fix": "prettier --write \"*.html\" \"*.js\" \"*.css\""
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5"
+  }
+}

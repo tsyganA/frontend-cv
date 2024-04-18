@@ -1,0 +1,513 @@
+html {
+  font-size: 18px;
+  background-color: #e0e5e9;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul.header_li li {
+  display: inline;
+  margin-right: 15px;
+  padding: 3px;
+}
+
+div.location div {
+  display: inline;
+  margin-right: 60px;
+  margin-left: 30px;
+}
+
+.logot {
+  width: 100px;
+}
+
+.alignment {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.alignment-footer {
+  margin: 0 auto;
+  position: relative;
+}
+
+.avatar {
+  width: 140px;
+  height: 150px;
+  margin-left: 140px;
+}
+
+.vertically {
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: #9f1491;
+}
+
+.experience a {
+  color: #000000;
+}
+
+.fon {
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 0 5px #c8d6d6;
+  background-color: #c8d6d6;
+}
+
+.bg-block {
+  border-radius: 20px;
+  padding: 1px;
+  margin-bottom: 15px;
+}
+
+.color_fon_about {
+  background: #eedfd8;
+}
+
+.color_fon_skills {
+  background: #93f8c5;
+}
+
+.color_fon_code {
+  background: #ebcef8;
+}
+
+.color_fon_experience {
+  background: #e5f0a7;
+}
+
+.color_fon_education {
+  background: #eedbcc;
+}
+
+.color_fon_languages {
+  background: #f1edc6;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+li {
+  margin-bottom: 8px;
+  width: 720px;
+  justify-content: center;
+}
+
+.contact-info li {
+  margin-bottom: 8px;
+  width: 520px;
+}
+
+.to {
+  vertical-align: 10px;
+}
+
+a:hover {
+  color: rgb(247, 126, 79);
+}
+
+.lef {
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.contact-info h2 {
+  text-align: center;
+}
+
+.popup {
+  display: none;
+}
+
+.stop-scrolling {
+  height: 100vh;
+  overflow: hidden;
+}
+
+select {
+  background: none;
+  border: 1px solid black;
+  padding: 6px 12px;
+  font-size: 15px;
+  outline: none;
+}
+
+select:active,
+select:focus {
+  background: #c8d6d6;
+}
+
+.fon-nav {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.head {
+  box-shadow: 0 0 5px #c8d6d6;
+  background-color: #c8d6d6;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts p img {
+  width: 25px;
+  height: 25px;
+}
+
+.contacts p {
+  margin: 0;
+}
+
+.contacts p {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.contacts span {
+  margin-left: 19px;
+  margin-top: 3px;
+}
+
+.linkedin {
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+.tg {
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.color_fon_skills ul {
+  margin-left: 300px;
+}
+
+.color_fon_skills ul li {
+  display: block;
+}
+
+.color_fon_about p {
+  margin-left: 20px;
+}
+
+.experience {
+  margin-left: 150px;
+}
+
+.education {
+  margin-left: 40px;
+}
+
+.color_fon_languages p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+  a {
+    font-size: 18px;
+  }
+
+  .bg-block {
+    width: 600px;
+    margin-bottom: 10px;
+  }
+
+  .alignment {
+    width: 640px;
+  }
+
+  li {
+    width: 550px;
+  }
+
+  .color_fon_skills ul {
+    margin-left: 200px;
+  }
+
+  .experience {
+    margin-left: 80px;
+  }
+
+  .experience a {
+    font-size: 18px;
+  }
+
+  .education {
+    margin-left: 0;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .lineburg {
+    display: block;
+    height: 2px;
+    width: 30px;
+    margin: 6px auto;
+    background-color: #e11313;
+    transition: 0.5s;
+    margin-top: 9px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .popup {
+    position: fixed;
+    display: flex;
+    top: 0px;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #292929;
+    z-index: 5;
+    transition: all 0.5s ease-in;
+  }
+
+  .popup.open {
+    right: 0;
+    width: 320px;
+  }
+
+  .blackout {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: block;
+  }
+
+  .blackout.unactive {
+    display: none;
+  }
+
+  .alignment-nav.burger {
+    display: flex;
+    width: 100%;
+    height: 500px;
+  }
+
+  .alignment-nav.burger .header_li {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 80px;
+  }
+
+  .alignment-nav.burger ul.header_li li {
+    display: inline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+  }
+
+  .burgert {
+    display: block;
+    margin: 9px 0px 9px 200px;
+    z-index: 12;
+    transition: all 0.5s ease-in;
+    width: 30px;
+  }
+
+  .head.open .burgert.active {
+    transform: translateY(0) translateX(0px) rotate(90deg);
+  }
+
+  .bg-block {
+    width: 310px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+
+  code {
+    font-size: 14px;
+  }
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+    margin-left: 8px;
+    margin-top: 40px;
+  }
+
+  .alignment {
+    width: 340px;
+  }
+
+  .education li {
+    font-size: 15px;
+    margin-left: 0px;
+    width: 270px;
+  }
+
+  .experience li {
+    font-size: 15px;
+    margin-left: 0px;
+    width: 270px;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  .to {
+    font-size: 15px;
+  }
+
+  .contact-info h2 {
+    width: 200px;
+  }
+
+  li {
+    margin-left: 20px;
+    width: 250px;
+    font-size: 15px;
+  }
+
+  .contact-info li {
+    margin-left: 0;
+    font-size: 15px;
+    width: 200px;
+  }
+
+  .lef {
+    margin-left: 50px;
+    width: 270px;
+  }
+
+  ul {
+    width: 200px;
+  }
+
+  .change-lang.burgerer {
+    display: block;
+    padding: 10px 15px;
+    font-size: 0.6rem;
+    z-index: 12;
+    transition: all 0.5s ease-in;
+    width: 70px;
+    margin-left: 20px;
+  }
+
+  .change-lang {
+    display: none;
+  }
+
+  .fon-nav {
+    width: 320px;
+  }
+
+  select {
+    background: #9f1491;
+  }
+
+  select:active,
+  select:focus {
+    background: #9f1491;
+  }
+
+  .color_fon_skills ul {
+    margin-left: 40px;
+  }
+
+  .experience {
+    margin-left: 0;
+  }
+
+  .experience a {
+    font-size: 15px;
+  }
+
+  .education {
+    margin-left: 0;
+  }
+
+  .color_fon_about p {
+    font-size: 15px;
+    margin-right: 5px;
+  }
+
+  .color_fon_languages p {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .contacts span {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .github {
+    width: 40px;
+    height: 40px;
+  }
+
+  .location {
+    margin-top: 5px;
+  }
+
+  .fon {
+    height: 55px;
+  }
+
+  div.location div {
+    height: 45px;
+  }
+
+  .to {
+    margin-top: 24px;
+  }
+}
