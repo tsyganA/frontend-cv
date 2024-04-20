@@ -299,7 +299,7 @@ h2 {
   }
 
   nav {
-    display: none;
+    /* display: none; */
   }
 
   .popup {
@@ -315,11 +315,11 @@ h2 {
   }
 
   .popup.open {
-    right: 0;
-    width: 320px;
+    /* right: 0;
+    width: 320px; */
   }
 
-  .blackout {
+  .blackout.active {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -330,7 +330,7 @@ h2 {
     display: block;
   }
 
-  .blackout.unactive {
+  .blackout {
     display: none;
   }
 
@@ -524,5 +524,28 @@ h2 {
 
   .to {
     margin-top: 24px;
+  }
+
+  .header_li {
+    display: flex;
+    position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100vw;
+        max-width: 320px;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 0;
+        gap: 1.1em;
+        background: #241e1e;
+        opacity: 0;
+  }
+
+  .head.open .header_li {
+    right: 0;
+        opacity: 1;
+        z-index: 4;
+        overscroll-behavior: contain;
   }
 }
