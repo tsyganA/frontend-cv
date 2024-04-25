@@ -15,7 +15,6 @@ function openMenu(event) {
   burger.classList.toggle('active');
   body.classList.toggle('stop-scrolling');
   background.classList.toggle('active');
-  menuPopup();
 }
 
 
