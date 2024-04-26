@@ -17,12 +17,11 @@ function openMenu(event) {
   background.classList.toggle('active');
 }
 
-
-link.forEach((link) => {
+link.forEach(link => {
   link.addEventListener('click', closeMenu);
 });
 
-background.addEventListener('click', (e) => {
+background.addEventListener('click', e => {
   if (header.classList.contains('open')) {
     header.classList.remove('open');
     burger.classList.remove('active');
@@ -38,9 +37,7 @@ function closeMenu() {
   background.classList.remove('active');
 }
 
-
 // Language
-
 
 const select = document.querySelector('select');
 const allLang = ['en', 'ru'];
