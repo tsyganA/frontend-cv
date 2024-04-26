@@ -127,4 +127,8 @@ const langArr = {
     en: 'English (A2)',
     ru: 'Английский (A2)',
   },
+  russian: {
+    en: 'Russian (Native)',
+    ru: 'Русский',
+  },
 };
