@@ -17,7 +17,6 @@ div.location div {
 }
 
 .alignment {
-  width: 800px;
   margin: 0 auto;
   position: relative;
 }
@@ -28,10 +27,7 @@ div.location div {
 }
 
 .avatar {
-  width: 140px;
-  height: 150px;
-  margin-left: 140px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 a {
@@ -125,10 +121,8 @@ select:focus {
 
 .fon-nav {
   display: flex;
-  overflow: hidden;
-  align-items: center;
+  justify-content: center;
   margin: 0 auto;
-  width: 800px;
 }
 
 .head {
@@ -157,7 +151,6 @@ select:focus {
 }
 
 .linkedin {
-  margin-left: 30px;
   width: 30px;
   height: 30px;
 }
@@ -169,29 +162,20 @@ select:focus {
 }
 
 .color_fon_skills ul {
-  margin-left: 300px;
+  text-align: center;
+  padding-left: 0;
 }
 
 .color_fon_skills ul li {
   display: block;
-  margin-left: 20px;
 }
 
 .color_fon_about p {
   margin-left: 20px;
 }
 
-.experience {
-  margin-left: 150px;
-}
-
-.education {
-  margin-left: 40px;
-}
-
 .color_fon_languages li {
   display: block;
-  margin-left: 290px;
 }
 
 h1 {
@@ -226,6 +210,7 @@ h2 {
 .messengers span {
   margin-left: 8px;
   color: #000000;
+  width: 6rem;
 }
 
 .messengers a:hover {
@@ -235,6 +220,7 @@ h2 {
 
 .contacts {
   margin-bottom: 10px;
+  margin-right: 5px;
 }
 
 .contacts li a {
@@ -247,30 +233,54 @@ h2 {
   text-decoration: underline;
 }
 
+.lng-contact {
+  margin: 0;
+}
+
+.color_fon_languages ul {
+  text-align: center;
+  padding-left: 0;
+}
+
+.education li {
+  margin-right: 10px;
+}
+
+.header_li {
+  padding-left: 0;
+}
+
+@supports (width: clamp(28rem, 3rem + 10vw, 140rem)) {
+  .avatar {
+    width: clamp(6rem, 3rem + 10vw, 8rem);
+  }
+}
+
+@supports (height: clamp(28rem, 3rem + 10vw, 140rem)) {
+  .avatar {
+    height: clamp(6rem, 3rem + 10vw, 8rem);
+  }
+}
+
+@supports (width: clamp(18rem, 6rem + 40vw, 100rem)) {
+  .alignment {
+    width: clamp(18rem, 6rem + 40vw, 100rem);
+  }
+}
+
+@supports (margin-left: clamp(20rem, calc(15vw - 3.7rem), 140rem)) {
+  .experience {
+    margin-left: clamp(0.01rem, calc(15vw - 3.7rem), 140rem);
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1279.98px) {
   .bg-block {
-    width: 630px;
     margin-bottom: 10px;
-  }
-
-  .alignment {
-    width: 640px;
-  }
-
-  .color_fon_skills ul {
-    margin-left: 200px;
-  }
-
-  .experience {
-    margin-left: 80px;
   }
 
   .experience a {
     font-size: 18px;
-  }
-
-  .education {
-    margin-left: 0;
   }
 
   h1 {
@@ -285,20 +295,8 @@ h2 {
     margin-right: 10px;
   }
 
-  .header_li {
-    margin-left: 40px;
-  }
-
   .color_fon_about p {
     margin-right: 10px;
-  }
-
-  .color_fon_languages li {
-    margin-left: 210px;
-  }
-
-  .avatar {
-    margin-left: 40px;
   }
 }
 
@@ -353,32 +351,18 @@ h2 {
   }
 
   .bg-block {
-    width: 330px;
     margin: 0 auto;
     margin-bottom: 5px;
-  }
-
-  .avatar {
-    width: 100px;
-    height: 100px;
-    margin-left: 0;
-    margin-top: 20px;
-  }
-
-  .alignment {
-    width: 340px;
   }
 
   .education li {
     font-size: 15px;
     margin-left: 0px;
-    width: 270px;
   }
 
   .experience li {
     font-size: 15px;
     margin-left: 0px;
-    width: 270px;
   }
 
   a {
@@ -394,27 +378,10 @@ h2 {
     font-size: 15px;
   }
 
-  .lef {
-    margin-left: 50px;
-    width: 270px;
-  }
-
-  ul {
-    width: 200px;
-  }
-
   .fon-nav {
     width: 100%;
     justify-content: space-between;
     margin-right: 150px;
-  }
-
-  .color_fon_skills ul {
-    margin-left: 40px;
-  }
-
-  .experience {
-    margin-left: 0;
   }
 
   .experience a {
@@ -432,7 +399,6 @@ h2 {
 
   .color_fon_languages li {
     font-size: 15px;
-    margin-left: 70px;
   }
 
   h2 {
@@ -531,10 +497,6 @@ h2 {
 
   .messengers {
     display: block;
-  }
-
-  .linkedin {
-    margin-left: 0;
   }
 
   .tg {
