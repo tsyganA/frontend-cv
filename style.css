@@ -352,6 +352,14 @@ h2 {
   text-decoration: underline;
 }
 
+.shelter_img_a:hover + .shelter_github {
+  text-decoration: underline;
+}
+
+.plants_img_a:hover + .plants_github {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1279.98px) {
   .bg-block {
     margin-bottom: 10px;
@@ -607,10 +615,18 @@ h2 {
 
   .shelter_github {
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   .plants_github {
     margin-top: 0;
+  }
+
+  .shelter_img_a {
+    font-size: 0;
+  }
+
+  .plants_img_a {
+    font-size: 0;
   }
 }
