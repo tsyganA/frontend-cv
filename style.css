@@ -19,6 +19,7 @@ div.location div {
 .alignment {
   margin: 0 auto;
   position: relative;
+  width: clamp(18rem, 6rem + 40vw, 100rem);
 }
 
 .alignment-footer {
@@ -28,6 +29,8 @@ div.location div {
 
 .avatar {
   margin-top: 20px;
+  width: clamp(6rem, 3rem + 10vw, 8rem);
+  height: clamp(6rem, 3rem + 10vw, 8rem);
 }
 
 a {
@@ -70,6 +73,10 @@ a {
 
 .color_fon_education {
   background: #eedbcc;
+}
+
+.color_fon_projects {
+  background: #93f8c5;
 }
 
 .color_fon_languages {
@@ -253,34 +260,104 @@ h2 {
 
 .experience {
   padding-left: 1.4rem;
+  margin-left: clamp(0.01rem, calc(15vw - 3.7rem), 140rem);
 }
 
 .experience li {
   margin-right: 15px;
 }
 
-@supports (width: clamp(28rem, 3rem + 10vw, 140rem)) {
-  .avatar {
-    width: clamp(6rem, 3rem + 10vw, 8rem);
-  }
+.experience a:hover {
+  text-decoration: underline;
+  color: #000000;
 }
 
-@supports (height: clamp(28rem, 3rem + 10vw, 140rem)) {
-  .avatar {
-    height: clamp(6rem, 3rem + 10vw, 8rem);
-  }
+.shelter_img {
+  width: 200px;
+  height: 150px;
+  border-radius: 4%;
+  box-shadow: 0 0 70px antiquewhite;
+  filter: grayscale(1) blur(2px);
+  transition: 0.7s all ease-in-out;
 }
 
-@supports (width: clamp(18rem, 6rem + 40vw, 100rem)) {
-  .alignment {
-    width: clamp(18rem, 6rem + 40vw, 100rem);
-  }
+.shelter_img:hover {
+  filter: grayscale(0) blur(0px);
+  transition: 0.7s all ease-in-out;
+  scale: 1.1;
 }
 
-@supports (margin-left: clamp(20rem, calc(15vw - 3.7rem), 140rem)) {
-  .experience {
-    margin-left: clamp(0.01rem, calc(15vw - 3.7rem), 140rem);
-  }
+.plants_img {
+  width: 200px;
+  height: 150px;
+  border-radius: 4%;
+  box-shadow: 0 0 70px antiquewhite;
+  filter: grayscale(1) blur(2px);
+  transition: 0.7s all ease-in-out;
+}
+
+.plants_img:hover {
+  filter: grayscale(0) blur(0px);
+  transition: 0.7s all ease-in-out;
+  scale: 1.1;
+}
+
+.projects {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-left: 0;
+  margin-left: calc(30% - 6.2rem);
+  margin-right: calc(30% - 6.2rem);
+}
+
+.github_project_img {
+  width: 25px;
+  height: 25px;
+  margin-left: 30px;
+}
+
+.github_project_img:hover {
+  scale: 1.3;
+  transition: 0.5s;
+}
+
+.shelter_github {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.plants_github {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.shelter_github p {
+  margin: 0;
+  color: #000000;
+}
+
+.shelter_github p:hover {
+  text-decoration: underline;
+}
+
+.plants_github p {
+  margin: 0;
+  color: #000000;
+}
+
+.plants_github p:hover {
+  text-decoration: underline;
+}
+
+.shelter_img_a:hover + .shelter_github {
+  text-decoration: underline;
+}
+
+.plants_img_a:hover + .plants_github {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279.98px) {
@@ -521,5 +598,35 @@ h2 {
 
   .contact-info ul {
     padding-left: 0;
+  }
+
+  .projects {
+    display: grid;
+    justify-content: center;
+  }
+
+  .shelter_github p {
+    font-size: 18px;
+  }
+
+  .plants_github p {
+    font-size: 18px;
+  }
+
+  .shelter_github {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .plants_github {
+    margin-top: 0;
+  }
+
+  .shelter_img_a {
+    font-size: 0;
+  }
+
+  .plants_img_a {
+    font-size: 0;
   }
 }
