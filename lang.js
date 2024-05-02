@@ -23,6 +23,10 @@ const langArr = {
     en: 'Education',
     ru: 'Образование',
   },
+  'projects-nav': {
+    en: 'Projects',
+    ru: 'Проекты',
+  },
   'languages-nav': {
     en: 'Languages',
     ru: 'Языки',
@@ -118,6 +122,10 @@ const langArr = {
   stage3: {
     en: 'RS Schools Course «React 2023Q4. Stage 3» (23.10.23-11.01.24).',
     ru: 'RS Schools курс «React 2023Q4. Stage 3» (23.10.23-11.01.24).',
+  },
+  projects: {
+    en: 'My projects',
+    ru: 'Мои проекты',
   },
   languages: {
     en: 'Languages',
