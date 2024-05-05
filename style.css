@@ -23,8 +23,6 @@ div.location div {
 
 .alignment-footer {
   margin: 0 auto;
-  /* min-width: 18rem; */
-  /* position: relative; */
 }
 
 .avatar {
@@ -416,14 +414,14 @@ h2 {
     display: none;
   }
 
-  .burgert {
+  .burger {
     display: block;
     margin: 9px 50px 9px 200px;
     z-index: 12;
     transition: all 0.5s ease-in;
   }
 
-  .head.open .burgert.active {
+  .head.open .burger.active {
     transform: translateY(0) translateX(0px) rotate(90deg);
   }
 
@@ -596,23 +594,6 @@ h2 {
   .projects {
     display: grid;
     justify-content: center;
-  }
-
-  .shelter_github p {
-    font-size: 18px;
-  }
-
-  .plants_github p {
-    font-size: 18px;
-  }
-
-  .shelter_github {
-    margin-top: 0;
-    margin-bottom: 15px;
-  }
-
-  .plants_github {
-    margin-top: 0;
   }
 
   .shelter_hov a {
