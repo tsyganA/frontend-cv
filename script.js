@@ -67,35 +67,3 @@ function changeLanguage() {
 }
 
 changeLanguage();
-
-//css
-
-const firstElementShelter = document.querySelector('.shelter_img');
-const secondElementShelter = document.querySelector('#shelter_p');
-
-secondElementShelter.addEventListener('mouseover', function () {
-  firstElementShelter.style.scale = '1.1';
-  firstElementShelter.style.filter = 'grayscale(0) blur(0px)';
-  firstElementShelter.style.transition = '0.7s all ease-in-out';
-});
-
-secondElementShelter.addEventListener('mouseout', function () {
-  firstElementShelter.style.scale = '';
-  firstElementShelter.style.filter = '';
-  firstElementShelter.style.transition = '';
-});
-
-const firstElementPlants = document.querySelector('.plants_img');
-const secondElementPlants = document.querySelector('#plants_p');
-
-secondElementPlants.addEventListener('mouseover', function () {
-  firstElementPlants.style.scale = '1.1';
-  firstElementPlants.style.filter = 'grayscale(0) blur(0px)';
-  firstElementPlants.style.transition = '0.7s all ease-in-out';
-});
-
-secondElementPlants.addEventListener('mouseout', function () {
-  firstElementPlants.style.scale = '';
-  firstElementPlants.style.filter = '';
-  firstElementPlants.style.transition = '';
-});

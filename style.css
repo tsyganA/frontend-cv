@@ -18,13 +18,13 @@ div.location div {
 
 .alignment {
   margin: 0 auto;
-  position: relative;
-  width: clamp(18rem, 6rem + 40vw, 100rem);
+  width: clamp(18rem, 6rem + 60vw, 48rem);
 }
 
 .alignment-footer {
   margin: 0 auto;
-  position: relative;
+  /* min-width: 18rem; */
+  /* position: relative; */
 }
 
 .avatar {
@@ -51,6 +51,7 @@ a {
   overflow: hidden;
   box-shadow: 0 0 5px #c8d6d6;
   background-color: #c8d6d6;
+  min-width: 18rem;
 }
 
 .bg-block {
@@ -135,6 +136,7 @@ select:focus {
 .head {
   box-shadow: 0 0 5px #c8d6d6;
   background-color: #c8d6d6;
+  min-width: 18rem;
 }
 
 .contact-info {
@@ -281,12 +283,6 @@ h2 {
   transition: 0.7s all ease-in-out;
 }
 
-.shelter_img:hover {
-  filter: grayscale(0) blur(0px);
-  transition: 0.7s all ease-in-out;
-  scale: 1.1;
-}
-
 .plants_img {
   width: 200px;
   height: 150px;
@@ -294,12 +290,6 @@ h2 {
   box-shadow: 0 0 70px antiquewhite;
   filter: grayscale(1) blur(2px);
   transition: 0.7s all ease-in-out;
-}
-
-.plants_img:hover {
-  filter: grayscale(0) blur(0px);
-  transition: 0.7s all ease-in-out;
-  scale: 1.1;
 }
 
 .projects {
@@ -315,6 +305,9 @@ h2 {
   width: 25px;
   height: 25px;
   margin-left: 30px;
+  position: absolute;
+  top: 165px;
+  right: 45px;
 }
 
 .github_project_img:hover {
@@ -322,42 +315,45 @@ h2 {
   transition: 0.5s;
 }
 
-.shelter_github {
-  display: flex;
-  justify-content: center;
-  margin-top: 5px;
+.shelter {
+  position: relative;
 }
 
-.plants_github {
-  display: flex;
-  justify-content: center;
-  margin-top: 5px;
+.shelter_hov:hover > a > img {
+  filter: grayscale(0) blur(0px);
+  transition: 0.4s all ease-in-out;
+  scale: 1.1;
 }
 
-.shelter_github p {
-  margin: 0;
+.shelter_hov:hover > a {
+  text-decoration: underline;
   color: #000000;
 }
 
-.shelter_github p:hover {
-  text-decoration: underline;
+.plants {
+  position: relative;
 }
 
-.plants_github p {
-  margin: 0;
+.plants_hov:hover > a > img {
+  filter: grayscale(0) blur(0px);
+  transition: 0.4s all ease-in-out;
+  scale: 1.1;
+}
+
+.plants_hov:hover > a {
+  text-decoration: underline;
   color: #000000;
 }
 
-.plants_github p:hover {
-  text-decoration: underline;
+#shelter_p,
+#plants_p {
+  color: #000000;
+  margin: 0;
+  padding: 5px 0 10px 45px;
 }
 
-.shelter_img_a:hover + .shelter_github {
-  text-decoration: underline;
-}
-
-.plants_img_a:hover + .plants_github {
-  text-decoration: underline;
+.linkd-ant {
+  margin-right: 65px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279.98px) {
@@ -425,7 +421,6 @@ h2 {
     margin: 9px 50px 9px 200px;
     z-index: 12;
     transition: all 0.5s ease-in;
-    width: 30px;
   }
 
   .head.open .burgert.active {
@@ -462,9 +457,7 @@ h2 {
   }
 
   .fon-nav {
-    width: 100%;
     justify-content: space-between;
-    margin-right: 150px;
   }
 
   .experience a {
@@ -622,11 +615,86 @@ h2 {
     margin-top: 0;
   }
 
-  .shelter_img_a {
-    font-size: 0;
+  .shelter_hov a {
+    font-size: 10px;
   }
 
-  .plants_img_a {
-    font-size: 0;
+  .plants_hov a {
+    font-size: 10px;
+  }
+
+  #shelter_p,
+  #plants_p {
+    font-size: 15px;
+  }
+
+  #shelter_p {
+    margin-bottom: 25px;
+    margin-top: 10px;
+  }
+
+  #plants_p {
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+
+  .shelter_hov:hover > a > img {
+    filter: none;
+    transition: none;
+    scale: none;
+  }
+
+  .shelter_hov:hover > a {
+    text-decoration: none;
+  }
+
+  .shelter_img {
+    box-shadow: none;
+    filter: none;
+    transition: none;
+  }
+
+  .plants_hov:hover > a > img {
+    filter: none;
+    transition: none;
+    scale: none;
+  }
+
+  .plants_hov:hover > a {
+    text-decoration: none;
+  }
+
+  .plants_img {
+    box-shadow: none;
+    filter: none;
+    transition: none;
+  }
+
+  .github_project_img {
+    scale: 1.3;
+  }
+
+  a:hover {
+    color: #cdcdcd;
+  }
+
+  .messengers img:hover {
+    scale: none;
+  }
+
+  .img_animation:hover {
+    scale: none;
+  }
+
+  .messengers a:hover {
+    text-decoration: none;
+  }
+
+  .contacts li a:hover {
+    text-decoration: none;
+  }
+
+  .experience a:hover {
+    text-decoration: none;
   }
 }
