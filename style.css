@@ -354,7 +354,7 @@ h2 {
   margin-right: 65px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+@media screen and (min-width: 768px) and (max-width: 888.98px) {
   .bg-block {
     margin-bottom: 10px;
   }
@@ -373,6 +373,66 @@ h2 {
 
   ul.header_li li {
     margin-right: 10px;
+  }
+
+  .shelter_hov:hover > a > img {
+    filter: none;
+    transition: none;
+    scale: none;
+  }
+
+  .shelter_hov:hover > a {
+    text-decoration: none;
+  }
+
+  .shelter_img {
+    box-shadow: none;
+    filter: none;
+    transition: none;
+  }
+
+  .plants_hov:hover > a > img {
+    filter: none;
+    transition: none;
+    scale: none;
+  }
+
+  .plants_hov:hover > a {
+    text-decoration: none;
+  }
+
+  .plants_img {
+    box-shadow: none;
+    filter: none;
+    transition: none;
+  }
+
+  .github_project_img {
+    scale: 1.3;
+  }
+
+  a:hover {
+    color: #9f1491;
+  }
+
+  .messengers img:hover {
+    scale: none;
+  }
+
+  .img_animation:hover {
+    scale: none;
+  }
+
+  .messengers a:hover {
+    text-decoration: none;
+  }
+
+  .contacts li a:hover {
+    text-decoration: none;
+  }
+
+  .experience a:hover {
+    text-decoration: none;
   }
 }
 
@@ -523,7 +583,7 @@ h2 {
     max-width: 320px;
     height: 100vh;
     flex-direction: column;
-    padding-top: 150px;
+    padding-top: 100px;
     font-size: 0;
     gap: 1.1em;
     background: #241e1e;
@@ -548,13 +608,13 @@ h2 {
 
   ul.header_li li {
     padding: 8px;
-    margin-left: 30px;
+    margin-left: 50px;
   }
 
   select {
     padding: 4px 10px;
     margin-top: 25px;
-    margin-left: 40px;
+    margin-left: 60px;
     width: 100px;
     height: 35px;
     background: #cdcdcd;
