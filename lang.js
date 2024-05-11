@@ -55,6 +55,30 @@ const langArr = {
     en: 'Skills and Proficiency',
     ru: 'Навыки и знания',
   },
+  advanced_html: {
+    en: '&nbspAdvanced',
+    ru: '&nbspПродвинутый',
+  },
+  intermediate_js: {
+    en: '&nbspIntermediate',
+    ru: '&nbspСредний',
+  },
+  intermediate_ts: {
+    en: '&nbspIntermediate',
+    ru: '&nbspСредний',
+  },
+  basic_react: {
+    en: '&nbspBasic',
+    ru: '&nbspБазовый',
+  },
+  advanced_sql: {
+    en: '&nbspAdvanced',
+    ru: '&nbspПродвинутый',
+  },
+  advanced_git: {
+    en: '&nbspAdvanced',
+    ru: '&nbspПродвинутый',
+  },
   experience: {
     en: 'Experience',
     ru: 'Опыт',

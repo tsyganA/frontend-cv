@@ -330,6 +330,10 @@ h2 {
   margin-right: 65px;
 }
 
+.color_fon_skills span {
+  color: rgb(124, 96, 62);
+}
+
 @media screen and (min-width: 768px) and (max-width: 930.98px) {
   .bg-block {
     margin-bottom: 10px;
