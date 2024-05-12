@@ -79,6 +79,34 @@ const langArr = {
     en: '&nbspAdvanced',
     ru: '&nbspПродвинутый',
   },
+  advanced_postman: {
+    en: '&nbspAdvanced',
+    ru: '&nbspПродвинутый',
+  },
+  advanced_devtools: {
+    en: '&nbspAdvanced',
+    ru: '&nbspПродвинутый',
+  },
+  advanced_dbeaver: {
+    en: '&nbspAdvanced',
+    ru: '&nbspПродвинутый',
+  },
+  advanced_rabbit: {
+    en: '&nbspAdvanced',
+    ru: '&nbspПродвинутый',
+  },
+  advanced_puppeteer: {
+    en: '&nbspAdvanced',
+    ru: '&nbspПродвинутый',
+  },
+  advanced_vmware: {
+    en: '&nbspAdvanced',
+    ru: '&nbspПродвинутый',
+  },
+  advanced_figma: {
+    en: '&nbspAdvanced',
+    ru: '&nbspПродвинутый',
+  },
   experience: {
     en: 'Experience',
     ru: 'Опыт',
@@ -92,16 +120,16 @@ const langArr = {
     ru: 'Uco software development ltd, Израиль - QA Engineer',
   },
   'ifuture-date': {
-    en: 'October 2022 - November 2022',
-    ru: 'Октябрь 2022 - Ноябрь 2022',
+    en: 'October - November 2022',
+    ru: 'Октябрь - Ноябрь 2022',
   },
   'ifuture-name': {
     en: 'iFuture Belarus, Minsk - QA Engineer',
     ru: 'АйФьючер, Минск - QA Engineer',
   },
   'tcp-date': {
-    en: 'March 2022 - October 2022',
-    ru: 'Март 2022 - Октябрь 2022',
+    en: 'March - October 2022',
+    ru: 'Март - Октябрь 2022',
   },
   'tcp-name': {
     en: 'TCP-Soft, Minsk - QA Engineer',
@@ -128,24 +156,24 @@ const langArr = {
     ru: 'Образование',
   },
   bntu: {
-    en: 'BNTU, speciality: “Industrial and civil builds” (01.09.11-01.07.19);',
-    ru: 'БНТУ, специальность: “Промышленное и гражданское строительство” (01.09.11-01.07.19);',
+    en: 'BNTU, speciality: “Industrial and civil builds” (2011-2019)',
+    ru: 'БНТУ, специальность: “Промышленное и гражданское строительство” (2011-2019)',
   },
   skillup: {
-    en: '“SkillUp”, speciality: “Basic web and SQL for software testing”, “Software testing” (03.09.19-29.11.19);',
-    ru: 'образовательный центр “SkillUp”, специальность: “Basic web and SQL for software testing”,  “Software testing” (03.09.19-29.11.19);',
+    en: '“SkillUp”, speciality: “Basic web and SQL for software testing”, “Software testing” (09/2019-11/2019)',
+    ru: 'образовательный центр “SkillUp”, специальность: “Basic web and SQL for software testing”,  “Software testing” (09/2019-11/2019)',
   },
   stage0: {
-    en: 'RS Schools Course «JavaScript/Front-end Pre-School 2022Q4. Stage 0» (05.12.22-03.03.23).',
-    ru: 'RS Schools курс «JavaScript/Front-end Pre-School 2022Q4. Stage 0» (05.12.22-03.03.23).',
+    en: 'RS Schools (EPAM courses) «JavaScript/Front-end Pre-School» (12/2022-03/2023)',
+    ru: 'RS Schools (EPAM курс) «JavaScript/Front-end Pre-School» (12/2022-03/2023)',
   },
   stage12: {
-    en: 'RS Schools Course «JavaScript/Front-end 2023Q1. Stage 1-2» (05.03.23-26.09.23).',
-    ru: 'RS Schools курс «JavaScript/Front-end 2023Q1. Stage 1-2» (05.03.23-26.09.23).',
+    en: 'RS Schools (EPAM courses) «JavaScript/Front-end» (03/2023-09/2023)',
+    ru: 'RS Schools (EPAM курс) «JavaScript/Front-end» (03/2023-09/2023)',
   },
   stage3: {
-    en: 'RS Schools Course «React 2023Q4. Stage 3» (23.10.23-11.01.24).',
-    ru: 'RS Schools курс «React 2023Q4. Stage 3» (23.10.23-11.01.24).',
+    en: 'RS Schools (EPAM courses) «React» (10/2023-01/2024)',
+    ru: 'RS Schools (EPAM курс) «React» (10/2023-01/2024)',
   },
   projects: {
     en: 'My projects',
