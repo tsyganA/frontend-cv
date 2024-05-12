@@ -112,8 +112,8 @@ const langArr = {
     ru: 'Декабрь 2020 - Февраль 2022',
   },
   'xquanto-name': {
-    en: 'xquanto.com, Moscow - QA Engineer',
-    ru: 'xquanto.com, Москва - QA Engineer',
+    en: 'Xquanto.com, Moscow - QA Engineer',
+    ru: 'Xquanto.com, Москва - QA Engineer',
   },
   'yandex-date': {
     en: 'November 2019 - December 2020',
