@@ -108,7 +108,7 @@ li {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 24px;
   text-align: center;
 }
 
@@ -192,10 +192,10 @@ select:focus {
 h1 {
   font-size: 30px;
 }
-
+/* 
 h2 {
   font-size: 24px;
-}
+} */
 
 .messengers {
   display: flex;
