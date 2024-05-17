@@ -155,9 +155,17 @@ const langArr = {
     en: 'Education',
     ru: 'Образование',
   },
+  university: {
+    en: 'University:',
+    ru: 'Университет:',
+  },
   bntu: {
     en: 'BNTU, speciality: “Industrial and civil builds” (2011-2019)',
     ru: 'БНТУ, специальность: “Промышленное и гражданское строительство” (2011-2019)',
+  },
+  courses: {
+    en: 'Courses:',
+    ru: 'Курсы:',
   },
   skillup: {
     en: '“SkillUp”, speciality: “Basic web and SQL for software testing”, “Software testing” (09/2019-11/2019)',
