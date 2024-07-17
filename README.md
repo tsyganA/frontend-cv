@@ -1,1 +1,1 @@
-https://tsygana.github.io/frontend-cv/#en
+https://tsygana.github.io/frontend-cv/
