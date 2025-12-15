@@ -48,8 +48,8 @@ const langArr = {
     ru: 'Обо мне',
   },
   monotonous: {
-    en: '&nbsp &nbsp I have a keen eye for details. I am a man of purpose, not afraid of monotonous work. I have structured thinking and analytical mind.',
-    ru: '&nbsp &nbsp Я внимателен к мелочам, целеустремлен, не боюсь монотонной работы. Имею  структурированное мышление и аналитический склад ума.',
+    en: '&nbsp &nbsp Experienced QA Engineer (6+ years) transitioning to Frontend development. Systematically studying Frontend for the past 3 years: completed RS Schools courses in JavaScript and React, actively practicing Vue.js development in commercial projects for the past year. Combining deep understanding of testing processes with growing development skills.',
+    ru: '&nbsp &nbsp Опытный QA Engineer (6+ лет) на пути к Frontend-разработке. Системно изучаю Frontend последние 3 года: завершил курсы RS Schools по JavaScript и React, последний год активно практикую Vue.js-разработку в коммерческих проектах текущего работодателя. Сочетаю глубокое понимание процессов тестирования с растущими навыками разработки.',
   },
   skill: {
     en: 'Skills and Proficiency',
