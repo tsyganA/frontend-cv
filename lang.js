@@ -197,11 +197,11 @@ const langArr = {
   },
    russian: {
     en: 'Russian (Native)',
-    ru: 'Русский',
+    ru: 'Русский (Родной)',
   },
   belarusian: {
     en: 'Belarusian (Native)',
-    ru: 'Белорусский',
+    ru: 'Белорусский (Родной)',
   },
   english: {
     en: 'English (B1)',
