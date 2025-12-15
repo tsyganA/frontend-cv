@@ -67,6 +67,10 @@ const langArr = {
     en: '&nbspIntermediate',
     ru: '&nbspСредний',
   },
+  basic_vue: {
+    en: '&nbspBasic',
+    ru: '&nbspБазовый',
+  },
   basic_react: {
     en: '&nbspBasic',
     ru: '&nbspБазовый',
@@ -191,12 +195,16 @@ const langArr = {
     en: 'Languages',
     ru: 'Языки',
   },
-  english: {
-    en: 'English (A2)',
-    ru: 'Английский (A2)',
-  },
-  russian: {
+   russian: {
     en: 'Russian (Native)',
     ru: 'Русский',
+  },
+  belarusian: {
+    en: 'Belarusian (Native)',
+    ru: 'Белорусский',
+  },
+  english: {
+    en: 'English (B1)',
+    ru: 'Английский (B1)',
   },
 };
